@@ -1,4 +1,4 @@
-# ChatBot2 — GPT‑2 FastAPI Chatbot
+# ChatBot — GPT‑2 FastAPI Chatbot
 
 A complete, end‑to‑end chatbot project that fine‑tunes GPT‑2 on the Persona‑Chat dataset and serves an interactive web UI via FastAPI. The repository includes data preprocessing, model training, evaluation, and an optional continuous‑learning loop that incorporates user feedback.
 
