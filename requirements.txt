@@ -1,0 +1,13 @@
+torch>=2.0.0
+transformers>=4.30.0
+datasets>=2.14.0
+evaluate>=0.4.0
+accelerate>=0.20.0
+sacrebleu
+rouge_score
+bert_score
+pandas
+numpy
+matplotlib
+tqdm
+scikit-learn
