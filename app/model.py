@@ -1,7 +1,7 @@
 from pathlib import Path
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
-MODEL_PATH = Path(__file__).parent / "gpt-chatbot"
+MODEL_PATH = Path(__file__).parent / "gpt2_chatbot_model"
 
 tokenizer = GPT2Tokenizer.from_pretrained(MODEL_PATH, local_files_only=True)
 model = GPT2LMHeadModel.from_pretrained(MODEL_PATH, local_files_only=True)
